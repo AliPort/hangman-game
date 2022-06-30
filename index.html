@@ -8,6 +8,7 @@
   <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 <body>
+  <div class = 'wrapper'>
   <h1>Welcome to the Game of Hangman</h1>
   <!-- Insert a function that has the player's name before the word 'Welcome'-->
   <form action="#">
@@ -15,8 +16,15 @@
     <input type="text" name="firstName" value="John"><br>
     <input type="submit" value="Submit">
   </form>
+
   <h2>Pick a letter from the alphabet below to complete the word.</h2>
   <h3>If you need help, click on the hint button to get a clue.</h3>
-  <script type="script" src="/script.js"></script>
-</body>
+
+  <div id = 'buttons'></div>
+  <p id = "category"></p>
+  <div id="hold"></div>
+  
+  <script type="script" src="./index.js"></script>
+</div>
+  </body>
 </html>

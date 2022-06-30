@@ -13,10 +13,36 @@ window.onload = function (){
 
     //Create a button element for each letter. Element ID = Buttons
     //Create ul list for the alphabet
+    const button = function(){
+        letButtons = document.getElementById('buttons');
+        letter = document.createElement('list'); //Guide from javascripttutorial.net
+
+        for (const i = 0; i <alphabet.length; i++) {
+            letters.id ='alphabet';
+            lists = document.createElement('li');
+            list.id = 'letter';
+            list.innerHTML = alphabet[i];
+            check;
+            myButtons.appendChild(letter);
+            letter.appendChild(list);
+        }
+    }   
    
     //Create a element that shows the category name (States, Film, Athletes, or Geography)
-    
+    const categories = function (){
+        if (chosenCategory === category [0]){
+            categoryName.innerHTML = "The category is States";
+        }else if (chosenCategory === category[1]){
+            categoryName.innerHTML = "The catergory is Film";
+        }else if (chosenCategory === category [2]){
+            categoryName.innerHTML = "The catergory is Athletes";
+        }else if (chosenCategory === category [3]){
+            categoryName.innerHTML = "The catergory is Geography";
+    }
+}
+
     //Create an element that shows the number of lines where a letter should be. 
+    
     
     //categories and words
     //States: New Mexico, New York, Florida, Minnesota
